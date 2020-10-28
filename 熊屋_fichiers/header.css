@@ -1,0 +1,223 @@
+  .salvia-header {
+      text-align: center;
+      margin: auto;
+      padding: 110px 0px;
+  }
+  .mobile-version .salvia-header {
+      padding: 40px 0px;
+  }
+  .tablet-version .salvia-header {
+      padding: 90px 0px;
+  }
+  .this-mobile.mobile-version .salvia-header {
+      margin-top: 60px;
+      margin-bottom: 60px;
+  }
+  .salvia-occupations a {
+      font-size: 12pt;
+      font-family: times;
+      display: inline-block;
+      margin-left: 25px;
+      margin-right: 25px;
+      padding-left: 5px;
+      padding-right: 5px;
+      display: inline-block
+  }
+  .salvia-title {
+      line-height: 100% !important;
+      margin: auto;
+      margin-top: 50px;
+  }
+  .salvia-title img {
+      max-width: 80%;
+      margin: auto;
+  }
+  .salvia-title a {
+      border-bottom: 0px;
+  }
+  .salvia-description {
+      margin-top: 0px;
+      font-size: 10pt;
+  }
+  .salvia-occupation a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  /* header elements */
+  /* Trigger buttons */
+  
+  .trigger-buttons a {
+      display: inline-block;
+      padding: 11px;
+      font-size: 17pt;
+      margin-right: 8px;
+      line-height: 14pt;
+      cursor: pointer;
+      line-height: 100% !Important;
+  }
+  .trigger-buttons {
+      position: fixed;
+      top: 25px;
+      left: 25px;
+      z-index: 9999;
+  }
+  .remote .tmblr-iframe-pushdown .trigger-buttons {
+      top: 79px
+  }
+  .remote.header-hidden .tmblr-iframe-pushdown .trigger-buttons {
+      top: 25px
+  }
+  /* Trigger buttons */
+  /* Hidden menu */
+  
+  .hidden-menu {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 270px;
+      height: 100%;
+      border-right: 1px solid #efefef;
+      z-index: 99999;
+      transform: translateX(-100%);
+      webkit-transition: transform .45s;
+      transition: transform .45s;
+      font-size: 10pt;
+  }
+  .hidden-menu ul {
+      padding: 35px;
+  }
+  .this-mobile .tmblr-iframe-pushdown .hidden-menu-content {
+      padding-top: 90px;
+  }
+  .hidden-menu ul {
+      margin: 0px;
+      list-style: none;
+  }
+  body,
+  .trigger-buttons {
+      webkit-transition: margin-left .45s;
+      transition: margin-left .45s
+  }
+  body {
+      position: relative;
+      webkit-transition: left .45s;
+      transition: left .45s;
+      left: 0px;
+  }
+  /* Hidden menu */
+  /* options */
+  
+  .no-border-occupation .salvia-occupations a {
+      border-bottom: 0px
+  }
+  .bold-title .salvia-title {
+      font-weight: 600
+  }
+  .italic-title .salvia-title {
+      font-style: oblique
+  }
+  .bold-occupation .salvia-occupations {
+      font-weight: 600
+  }
+  .italic-occupation .salvia-occupations {
+      font-style: oblique
+  }
+  .no-search .search-trigger {
+      display: none
+  }
+  .italic-links .hidden-menu {
+      font-style: oblique
+  }
+  .this-mobile .search-trigger {
+      display: none !important
+  }
+  .this-mobile.mobile-version .salvia-occupations {
+      display: none !Important
+  }
+  /* options */
+  /* post reblog */
+  
+  .post_reblog {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      padding: 20px 0px;
+      border-top: 1px solid #efefef;
+      border-bottom: 1px solid #efefef;
+      margin-bottom: 15px;
+  }
+  .icon-heart {
+      color: #aeaeae
+  }
+  .post_reblog a {
+      color: #222;
+      font-size: 10pt;
+  }
+  .post_reblog_avatar {
+      width: 24px;
+      border-radius: 50%;
+      overflow: hidden;
+  }
+  .post_reblog li {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 7px;
+  }
+  .post-content:not(.caption-enabled) .post_reblog {
+      border-top: 0px;
+  }
+  /* post reblog */
+  /* instagram feed */
+  
+  .instagram-label {
+      padding-top: 40px;
+  }
+  .instagram-feed-container {
+      max-width: 700px;
+      margin: auto;
+      margin-bottom: 50px;
+      padding: 0px 40px;
+      margin-top: -30px;
+      border-top: 1px solid #efefef;
+  }
+  @media screen and (max-width: 720px) {
+      .instagram-feed-container {
+          padding: 0px 5px;
+      }
+  }
+  .instagram-feed-container #instagram-feed {
+      margin-top: 20px;
+  }
+  .instagram-feed-container #instagram-feed a {
+      display: inline-block;
+      width: calc(100% / 4);
+      padding: 4px;
+  }
+  .instagram-feed-container #instagram-feed img {
+      display: block;
+      margin-bottom: -8px;
+  }
+  .customize .instagram-feed-container #instagram-feed img {
+      margin-bottom: 0px;
+  }
+  /* instagram feed */
+  
+  .mobile-version .salvia-occupations {
+      padding-top: 60px;
+  }
+  html {
+      overflow-x: hidden
+  }
+  #loadmore {
+      font-family: baskervile;
+      font-size: 14pt;
+      font-style: oblique;
+  }
+  #paginateit > nav {
+      padding: 0px 50px;
+  }
+  .mobile-version #paginateit > nav {
+      padding: 40px 50px;
+      padding-bottom: 15px;
+	  }
